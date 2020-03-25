@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateOnePointIterationsTable extends Migration
+class CreateOnePointsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateOnePointIterationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('one__point__iterations', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->float('XN');
-            $table->timestamps();
+        Schema::create('one__points', function (Blueprint $table) {
+          $table->bigIncrements('id');
+          $table->float('XN');
+          $table->float('Iteration');
+          $table->timestamps();
         });
     }
 
@@ -27,6 +28,6 @@ class CreateOnePointIterationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('one__point__iterations');
+        Schema::dropIfExists('one__points');
     }
 }

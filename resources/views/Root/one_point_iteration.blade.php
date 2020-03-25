@@ -1,12 +1,29 @@
 @extends('Navbar')
 @section('body')
+<style>
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+div.d {
+  text-align: justify;
+}
+</style>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 align="center">One Point Iteration</h3><br>
+					<h3 align="center" style="color:Tomato;">One Point Iteration</h3><br>
 					<form method="get" action="{{url('/show/OnePointIteration')}}" align="center">
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary"/>
+							<input type="submit" class="btn btn-primary"/><p>"กดเพื่อดูผลการคำนวน"
 						</div>
 					</form>
 				</div>
@@ -24,14 +41,13 @@
           $Error = abs(($XN-$XO)/$XN);
           $XO = $XN;
           $iteration = $iteration+1;
-          echo "<br>iteration = ",$iteration," XN = ",$XN;
 
           $dataInsert = [
   					'XN'=>$XN,
             'Iteration'=>$iteration
   				];
 
-  				\App\One_Point_Iteration::insert($dataInsert);
+  				\App\One_Point::insert($dataInsert);
         }
 
         function func($x)
@@ -41,4 +57,14 @@
 
 
 			?>
+			<div class="col-md-12">
+				<div class="a">
+					<p style="color:DodgerBlue;">
+						สมการ e -x –x = 0  ปรับสมการให้อยู่ในรูป ‘F1(x)=F2(x)’  นั่นคือ x = e-x เมื่อ F 1(x)= x (สมการเส้นตรง) เมื่อ F2(x)= e-x ค่า x ที่เส้นตัดกันคือคําตอบของสมการ
+					</p>
+
+				</div>
+
+			</div>
+
 @endsection

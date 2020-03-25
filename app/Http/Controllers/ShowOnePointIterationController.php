@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\One_Point_Iteration;
+use App\One_Point;
 
 class ShowOnePointIterationController extends Controller
 {
@@ -15,7 +15,7 @@ class ShowOnePointIterationController extends Controller
     public function index()
     {
         //
-        $one_point_iteration = One_Point_Iteration::all()->toArray();
+        $one_point_iteration = One_Point::all()->toArray();
         return view('Root.show_one_point_iteration', compact('one_point_iteration'));
     }
 
