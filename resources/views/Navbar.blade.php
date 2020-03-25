@@ -42,8 +42,8 @@
               <a class="dropdown-item" href="/Numerical/public/Bisection">Bisection Method</a>
               <a class="dropdown-item" href="/Numerical/public/FalsePosition">False Position Method</a>
               <a class="dropdown-item" href="/Numerical/public/OnePointIteration">One Point iteration</a>
-              <a class="dropdown-item" href="NewtonRarpson">Newton Rarpson</a>
-              <a class="dropdown-item" href="Secant">Secant Method</a>
+              <a class="dropdown-item" href="/Numerical/public/NewtonRarpson">Newton Rarpson</a>
+              <a class="dropdown-item" href="/Numerical/public/Secant">Secant Method</a>
             </div>
           </li>
           <li class="nav-item">
