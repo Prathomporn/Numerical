@@ -69,12 +69,12 @@ function luDecomposition($mat, $n)
         // Lower
         for ($j = 0; $j < $n; $j++)
             echo "\t" . $lower[$i][$j] . "\t";
-        echo "\t";
+            echo "<br>";
 
         // Upper
         for ($j = 0; $j < $n; $j++)
         echo $upper[$i][$j] . "\t";
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -86,5 +86,5 @@ $mat = array(array(2, -1, -2),
 luDecomposition($mat, 3);
 
 // This code is contributed by mits
-?> 
+?>
 @endsection

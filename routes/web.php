@@ -26,7 +26,7 @@ Route::get('NewtonRarpson', 'NewtonRaspsonController@index');
 Route::get('show/NewtonRarpson', 'ShowNewtonRarpsoncontroller@index');
 
 Route::get('Secant', 'SecantController@index');
-Route::get('show/Secant', 'ShowSecantControlle@index');
+Route::get('show/Secant', 'Showsecantcontroller@index');
 //Linear
 Route::get('LUDecomposer','LUDecomposerController@index');
 //interpolation

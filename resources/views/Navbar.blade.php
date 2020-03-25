@@ -46,11 +46,23 @@
               <a class="dropdown-item" href="/Numerical/public/Secant">Secant Method</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkL" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Linear System
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkL">
+              <a class="dropdown-item" href="/Numerical/public/FalsePosition">Cramer Rule's</a>
+              <a class="dropdown-item" href="/Numerical/public/LUDecomposer">L U Decomposer</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkI" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Interpolation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkI">
+              <a class="dropdown-item" href="/Numerical/public/FalsePosition">Cramer Rule's</a>
+              <a class="dropdown-item" href="/Numerical/public/Bisection">L U Decomposer</a>
+            </div>
           </li>
 
           <li class="nav-item dropdown">
