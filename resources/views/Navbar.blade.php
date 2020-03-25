@@ -60,21 +60,20 @@
               Interpolation
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkI">
-              <a class="dropdown-item" href="/Numerical/public/FalsePosition">Cramer Rule's</a>
-              <a class="dropdown-item" href="/Numerical/public/Bisection">L U Decomposer</a>
+              <a class="dropdown-item" href="/Numerical/public/NewtonInterpolation">Newton Interpolation</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkE" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Exact Intregration
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkE">
+              <a class="dropdown-item" href="/Numerical/public/Trapezoidal">Trapezoidal</a>
+              <a class="dropdown-item" href="/Numerical/public/Simson">Simson'sRule</a>
             </div>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Root of Equestions
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="bisection">Action</a>
-              <a class="dropdown-item" href="falsePosition">false Position</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+
         </ul>
       </div>
     </nav>

@@ -31,3 +31,6 @@ Route::get('show/Secant', 'Showsecantcontroller@index');
 Route::get('LUDecomposer','LUDecomposerController@index');
 //interpolation
 Route::get('NewtonInterpolation','NewtonInterpolationController@index');
+
+Route::get('Trapezoidal', function(){ return view('Intregration.Trapezoidal');});
+Route::get('Simson', function(){ return view('Intregration.Simson');});
