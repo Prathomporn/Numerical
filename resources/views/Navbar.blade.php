@@ -65,7 +65,6 @@
           </li>
         </ul>
       </div>
-
     </nav>
   </body>
   @yield('body')
